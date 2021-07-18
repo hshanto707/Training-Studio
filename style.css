@@ -39,15 +39,13 @@ a {
 }
 
 .cta:hover {
-  /* background-color: white;
-  color: orangered; */
-  box-shadow: 7px 7px white;
-  transition: box-shadow ease-out 0.5s;
-  /* border-radius: 100px; */
+  background-color: orange;
+  border: 3px solid orange;
 }
 
 .details {
   color: #8E9FA7;
+  font-size: 14px;
   line-height: 30px;
 }
 
@@ -111,7 +109,7 @@ a {
   text-align: center;
 }
 
-.programs-title {
+.title {
   font-size: 30px;
   font-weight: 700;
 }
@@ -156,11 +154,50 @@ a {
 }
 
 /*-----------------
-  BANNER SECTION
+  CLASSES SECTION
 -----------------*/
 
-.classes {
+.classes-section {
   width: 70%;
   padding: 150px 0;
   margin: auto;
+}
+
+.classes-body {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-top: 50px;
+}
+
+.class-tab {
+  display: flex;
+  width: 80%;
+  padding: 20px;
+  margin-bottom: 25px;
+  box-shadow: 5px 5px 10px lightgray;
+}
+
+.class-tab:hover .class-title {
+  color: orangered;
+}
+
+.class-tab img {
+  padding-right: 20px;
+}
+
+.class-btn {
+  padding: 10px 73px;
+}
+
+.class-banner img {
+  border-radius: 5px;
+}
+
+.class-banner-title {
+  font-size: 22px;
+  margin: 20px 0;
+}
+
+.class-banner-btn {
+  margin-top: 20px;
 }
