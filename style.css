@@ -14,6 +14,17 @@ body {
   color: #232D39;
 }
 
+.title {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.dark-title {
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+}
+
 .h3 {
   font-size: 20px;
   font-weight: 500;
@@ -45,6 +56,12 @@ a {
 
 .details {
   color: #8E9FA7;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.dark-details {
+  color: #ffffff;
   font-size: 14px;
   line-height: 30px;
 }
@@ -109,11 +126,6 @@ a {
   text-align: center;
 }
 
-.title {
-  font-size: 30px;
-  font-weight: 700;
-}
-
 .header img {
   padding: 15px;
 }
@@ -148,10 +160,6 @@ a {
   color: white;
 }
 
-.banner-details {
-  color: white;
-  padding: 20px 0 40px;
-}
 
 /*-----------------
   CLASSES SECTION
@@ -201,3 +209,25 @@ a {
 .class-banner-btn {
   margin-top: 20px;
 }
+
+/*-------------------
+  SCHEDULE SECTION
+--------------------*/
+
+.schedule-section {
+  background-image: url(images/schedule-bg.jpg);
+  padding: 150px 0;
+  text-align: center;
+}
+
+table {
+  color: white;
+  margin: 30px auto 0;
+}
+
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  padding: 30px;
+}
+
