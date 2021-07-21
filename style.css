@@ -332,3 +332,10 @@ input,textarea {
 textarea {
   width: 96%;
 }
+
+footer {
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
