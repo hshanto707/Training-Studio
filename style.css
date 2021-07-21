@@ -50,8 +50,8 @@ a {
 }
 
 .cta:hover {
-  background-color: orange;
-  border: 3px solid orange;
+  background-color: #ea725d;
+  border: 3px solid #ea725d;
 }
 
 .details {
@@ -231,9 +231,9 @@ table, th, td {
   padding: 30px;
 }
 
-/*-------------------
+/*-----------------
   TRAINER SECTION
---------------------*/
+------------------*/
 
 .trainer-section {
   width: 70%;
@@ -283,4 +283,52 @@ table, th, td {
 
 .fab:hover {
   color: orangered;
+}
+
+/*-----------------
+  CONTACT SECTION
+------------------*/
+
+.contact-section {
+  width: 100%;
+  display: flex;
+}
+
+.map {
+  width: 100%;
+}
+
+.contact-form {
+  background-image: url(images/contact-bg.jpg);
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.form {
+  background-color: white;
+  margin: 60px auto;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+input,textarea {
+  padding: 10px;
+}
+
+.name {
+  width: 280px;
+  margin-right: 20px;
+}
+.email {
+  width: 280px;
+}
+
+.subject {
+  width: 96%;
+  margin: 30px 0;
+}
+
+textarea {
+  width: 96%;
 }
