@@ -231,3 +231,56 @@ table, th, td {
   padding: 30px;
 }
 
+/*-------------------
+  TRAINER SECTION
+--------------------*/
+
+.trainer-section {
+  width: 70%;
+  padding: 150px 0;
+  margin: auto;
+}
+
+.trainers {  
+  display: flex;
+  padding-top: 50px;
+  justify-content: space-between;
+}
+
+.trainer {
+  width: 27%;
+  padding: 2%;
+  box-shadow: 5px 5px 10px lightgray;
+  border-radius: 10px;
+} 
+
+.trainer img {
+  width: 100%;
+  margin: auto;
+}
+
+.label {
+  font-weight: 500;
+  color: orangered;
+  padding: 10px 0;
+}
+
+.trainer-name {
+  padding-bottom: 10px;
+}
+
+.socials {
+  padding-top: 10px;
+}
+
+.socials a {
+  color: #232D39;
+}
+
+.fab {
+  padding-left: 5px;
+}
+
+.fab:hover {
+  color: orangered;
+}
